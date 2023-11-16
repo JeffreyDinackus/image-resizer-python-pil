@@ -1,8 +1,8 @@
 from PIL import Image
 
 
-im = Image.open("foster-lake.jpg") #enter a img
+im = Image.open("default.png") #enter a img
 out = im.resize((128, 128))
-out.save("128.png")
+out.save("icon-128x128.png")
 
 
